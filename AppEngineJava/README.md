@@ -10,7 +10,7 @@ First, open the Google Cloud Repository, and clone  the project, then navigate t
 
 ```
 git clone https://github.com/Blake-Sam-Dom/AppEngineRandomGenerator.git
-cd AppEngineRandomGenerator/
+cd AppEngineRandomGenerator/AppEngineJava
 ```
 
 ## Local Testing
