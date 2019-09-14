@@ -43,10 +43,10 @@ gcloud app create
 ```
 Now deploy:
 ```
-gcloud app deploy app.yaml --project *your project id*
+gcloud app deploy app.yaml --project your-project-id
 ```
 Make sure all the displayed information is correct and press go!
 
-The app will deploy and will live at *your project id*.appspot.com by default
+The app will deploy and will live at your-project-id.appspot.com by default
 
 If you want to visit mine, it is live at http://cs-4263-252417.appspot.com/
