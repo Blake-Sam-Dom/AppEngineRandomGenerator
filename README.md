@@ -1,5 +1,7 @@
 # Random Number Generator
 
+Note: My implementation is live at http://cs-4263-252417.appspot.com/
+
 ## App Engine
 
 App Engine works best on the Google Cloud Platform
@@ -49,4 +51,4 @@ Make sure all the displayed information is correct and press go!
 
 The app will deploy and will live at your-project-id.appspot.com by default
 
-If you want to visit mine, it is live at http://cs-4263-252417.appspot.com/
+Again, if you would like to visit mine, it is live at http://cs-4263-252417.appspot.com/
