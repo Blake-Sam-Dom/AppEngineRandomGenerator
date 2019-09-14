@@ -14,7 +14,7 @@ cd AppEngineRandomGenerator/
 
 Create an isolated virtual environment and activate it:
 ```
-virtualenv --python python3 ./envs/random-number
+virtualenv --python python3 envs/random-number
 source envs/random-number/bin/activate
 ```
 Navigate to the program directory:
