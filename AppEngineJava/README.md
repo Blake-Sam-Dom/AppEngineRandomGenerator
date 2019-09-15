@@ -4,7 +4,20 @@ Live Implementation: https://random-number-gcp.appspot.com/
 
 ## App Engine
 
-This implementation of the web server was created in Google App Engine using Java. It can be compiled using the same platform.
+This implementation of the web server was created in Google App Engine using Java. It can be compiled using the same platform. This implementation uses only Java's built in Random library to generate random numbers, so it can be trusted to provide sufficiently random code. This is a method of testing that that can run on any Java side:
+
+```
+	public static boolean checkRandomness() {
+		HashSet<Integer> key = new HashSet<Integer>();
+		for(int i=0; i<1000; i++) {
+			key.add(generateRandom.generateRandom());
+		}
+		if(key.size()>=750) return true;
+		return false;
+	}
+```
+
+
 
 First, open the Google Cloud Repository, and clone  the project, then navigate to correct repository:
 
