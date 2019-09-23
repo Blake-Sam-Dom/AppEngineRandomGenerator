@@ -28,7 +28,6 @@ public class DemoServlet extends HttpServlet {
       throws IOException {
       Random ran = new Random();
       String rand = ""+ran.nextInt(1000000);
-    resp.setContentType("text/plain");
-    resp.getWriter().println("{ \"name\": \""+rand+"\" }");
+    resp.getWriter().print(rand);
   }
 }
