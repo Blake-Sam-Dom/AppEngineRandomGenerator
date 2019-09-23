@@ -1,6 +1,6 @@
 # Random Number Generator
 
-Live Implementation: https://random-number-gcp.appspot.com/
+Live Implementation: https://random-number-gcp.appspot.com/demo
 
 ## App Engine
 
@@ -53,4 +53,4 @@ Finally, simply run the following command:
 mvn appengine:deploy
 ```
 
-This will result in the deployment of your web app. The url will be [Project-ID].appspot.com, and should now be accessible.
+This will result in the deployment of your web app. The url will be [Project-ID].appspot.com/demo, and should now be accessible.
